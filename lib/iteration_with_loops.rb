@@ -1,6 +1,3 @@
-require "pry"
-
-
 def join_nested_strings(src)
   row_index = 0
   sentence_element = 0
@@ -10,6 +7,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
          if src[row_index][element_index] == src[element_index].to_s
          sentence_element = src[row_index][element_index]
+       end
       sentence << sentence_element
       element_index += 1
     end
