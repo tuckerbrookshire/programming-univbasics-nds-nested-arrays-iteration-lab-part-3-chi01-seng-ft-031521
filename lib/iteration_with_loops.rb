@@ -6,9 +6,10 @@ def join_nested_strings(src)
   sentence_element = ""
   sentence = ""
   while row_index < src.count do
-    binding.pry
+    
     element_index = 0
     while element_index < src[row_index].count do
+      binding.pry
          if src[row_index][element_index] == src[element_index].to_s
          sentence_element = src[row_index][element_index]
         end
