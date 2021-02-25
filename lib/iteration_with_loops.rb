@@ -4,7 +4,6 @@ def join_nested_strings(src)
   
   row_index = 0
   sentence_element = ""
-  sentence = ""
   while row_index < src.count do
     
     element_index = 0
@@ -17,6 +16,6 @@ def join_nested_strings(src)
     end
     row_index += 1
   end
- sentence
+ sentence_element
 end
 
