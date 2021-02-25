@@ -1,6 +1,7 @@
-
+require "pry"
 
 def join_nested_strings(src)
+  binding.pry
   row_index = 0
   sentence_element = ""
   sentence = ""
