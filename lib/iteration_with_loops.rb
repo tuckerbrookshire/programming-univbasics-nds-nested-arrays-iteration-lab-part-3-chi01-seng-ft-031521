@@ -1,11 +1,12 @@
 require "pry"
 
 def join_nested_strings(src)
-  binding.pry
+  
   row_index = 0
   sentence_element = ""
   sentence = ""
   while row_index < src.count do
+    binding.pry
     element_index = 0
     while element_index < src[row_index].count do
          if src[row_index][element_index] == src[element_index].to_s
