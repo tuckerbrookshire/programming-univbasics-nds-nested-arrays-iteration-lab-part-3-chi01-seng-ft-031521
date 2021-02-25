@@ -11,7 +11,7 @@ def join_nested_strings(src)
          if src[row_index][element_index] == src[element_index].to_s
          sentence_element = src[row_index][element_index]
         end
-      sentence << sentence_element
+      sentence += sentence_element
       element_index += 1
     end
     row_index += 1
