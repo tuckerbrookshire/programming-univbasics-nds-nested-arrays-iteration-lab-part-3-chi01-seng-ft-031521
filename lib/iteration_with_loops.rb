@@ -12,7 +12,6 @@ def join_nested_strings(src)
       
          if src[row_index][element_index].class == String
          sentence_element += src[row_index][element_index]
-         binding.pry
         end
       element_index += 1
     end
