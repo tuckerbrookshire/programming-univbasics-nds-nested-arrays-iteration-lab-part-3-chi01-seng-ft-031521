@@ -10,7 +10,7 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       binding.pry
-         if src[row_index][element_index] == src[element_index].to_s
+         if src[row_index][element_index].class == String
          sentence_element = src[row_index][element_index]
         end
       sentence += sentence_element
